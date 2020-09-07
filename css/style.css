@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ margin: 0 25%;
+ background:lightblue;
+}
+
+img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+hr {
+    margin: 10px;
+}
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Contatore email non lette */
+.unread {
+    background: yellow;
+    background-position: center;
+    padding: 5px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+h2 {
+    margin: 10px;
+}
+/* email lette */
+.letto {
+    width: 100%;
+    background: lightgrey;
+    border: solid 1px black ;
+}
+/* email non lette */
+.nonletto
+{
+    width: 100%;
+    background: grey;
+    border: solid 1px black ;
+}
+
+p {
+    display: inline-block;
+    margin-left: 10px;1
+}
+
+.corpo-mail {
+    margin-left: 5px;
+}
+
+.oggetto-mail {
+    margin: 0 20px;
+
+}
+footer {
+    text-align: center;
+}
+/* link pagina developer (non richiesto) */
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
